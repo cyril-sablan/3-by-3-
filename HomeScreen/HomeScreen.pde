@@ -3,7 +3,7 @@
 void setup() 
 {
   size(950, 650); //fillScreen(); //displayWidth, displayHeight
-  display(); 
+  displayOrientation(); 
 }//End setup
 //
 void draw() {
