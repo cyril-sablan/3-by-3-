@@ -1,9 +1,11 @@
 //Global Variables
 color black=0, resetWhite=255; //Not night mode (lots of blue)
 float rectWidth, rectHeight, ptDiameter;
-float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3;
-float ptX4, ptY4, ptX5, ptY5, ptX6, ptY6;
-float ptX7, ptY7, ptX8, ptY8, ptX9, ptY9;
+//Points are organized by row and actually ... hint-hint ... value 
+float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4; //Organized pts into rows
+float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
+float ptX9, ptY9, ptX10, ptY10, ptX11, ptY11, ptX12, ptY12;
+float ptX13, ptY13, ptX14, ptY14, ptX15, ptY15, ptX16, ptY16;
 //
 void setup() 
 {
