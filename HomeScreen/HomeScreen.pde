@@ -45,17 +45,29 @@ void draw() {
   //rect(ptX6, ptY6, rectWidth, rectHeight);
   //rect(ptX7, ptY7, rectWidth, rectHeight);
   //rect(ptX8, ptY8, rectWidth, rectHeight);
-  // rect(ptX9, ptY9, rectWidth, rectHeight);
+  //rect(ptX9, ptY9, rectWidth, rectHeight);
   fill(black);
+  //Starting pts for rect() must be 1-9 & filled black
   ellipse(ptX1, ptY1, ptDiameter, ptDiameter);
   //ellipse(ptX2, ptY2, ptDiameter, ptDiameter);
   //ellipse(ptX3, ptY3, ptDiameter, ptDiameter);
-  //ellipse(ptX4, ptY4, ptDiameter, ptDiameter);
   //ellipse(ptX5, ptY5, ptDiameter, ptDiameter);
   //ellipse(ptX6, ptY6, ptDiameter, ptDiameter);
   //ellipse(ptX7, ptY7, ptDiameter, ptDiameter);
   //ellipse(ptX8, ptY8, ptDiameter, ptDiameter);
-  //ellipse(ptX1, ptY9, ptDiameter, ptDiameter);
+  //ellipse(ptX9, ptY9, ptDiameter, ptDiameter);
+  ellipse(ptX10, ptY10, ptDiameter, ptDiameter);
+  ellipse(ptX11, ptY11, ptDiameter, ptDiameter);
+  //
+  fill(red);
+  //Points for all other ellipses must be red
+  ellipse(ptX4, ptY4, ptDiameter, ptDiameter);
+  ellipse(ptX8, ptY9, ptDiameter, ptDiameter);
+  ellipse(ptX12, ptY12, ptDiameter, ptDiameter);
+  ellipse(ptX13, ptY13, ptDiameter, ptDiameter);
+  ellipse(ptX14, ptY14, ptDiameter, ptDiameter);
+  ellipse(ptX15, ptY15, ptDiameter, ptDiameter);
+  ellipse(ptX16, ptY16, ptDiameter, ptDiameter);
   fill(resetWhite); //Best Practice
 }//End draw
 //
