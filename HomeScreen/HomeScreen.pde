@@ -16,6 +16,24 @@ void setup()
   ptDiameter = appWidth*1/70;
   ptX1 = appWidth*0;
   ptY1 = appHeight*0;
+  /* 
+  ptX2 - ;
+  ptY2 = ;
+  ptX3 = ;
+  ptY3 = ;
+  ptX4 = ;
+  ptY4 = ;
+  ptX5 = ;
+  ptY5 = ;
+  ptX6 = ;
+  ptY6 = ;
+  ptX7 = ;
+  ptY7 = ;
+  ptX8 = ;
+  ptY8 = ;
+  ptX9 = ;
+  ptY9 = ;
+  */
 }//End setup
 //
 void draw() {
