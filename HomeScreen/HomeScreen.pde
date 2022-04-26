@@ -36,6 +36,20 @@ void setup()
   ptX9 = ;
   ptY9 = ;
   */
+  ptX10 = ;
+  ptY10 = ;
+  ptX11 = ;
+  ptY11 = ;
+  ptX12 = ;
+  ptY12 = ;
+  ptX13 = ;
+  ptY13 = ;
+  ptX14 = ;
+  ptY14 = ;
+  ptX15 = ;
+  ptY15 = ;
+  ptX16 = ;
+  ptY16 = ;
 }//End setup
 //
 void draw() {
