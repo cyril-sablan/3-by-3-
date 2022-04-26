@@ -5,8 +5,8 @@ void displayOrientation() {
   println(width, height, displayWidth, displayHeight);
   String ls="Landscape or Square", p="portrait", DO="Display Orientation:", instruct="bruh, turn da phun";
   //Swap display key variables for testing 
-  int appWidth = width; //displayWidth
-  int appHeight = height; //displayHeight
+   appWidth = width; //displayWidth
+   appHeight = height; //displayHeight
   String orientation = (appWidth >= appHeight ) ? ls : p ; //Ternary Operator, repeats IF-ELSE
   println (DO, orientation );
   //if ( orientation==p) println(instruct); //Testing the orientation variable 
