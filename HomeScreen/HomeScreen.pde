@@ -2,13 +2,9 @@
 color black=0, resetWhite=255, red=color(255, 0, 0); //Not night mode (lots of blue)
 float rectWidth, rectHeight, ptDiameter;
 //Points are organized by row and actually ... hint-hint ... value
-int numberOfPoints = 16;
+int numberOfPoints = 17;
 float[] ptX = new float[numberOfPoints];
 float[] ptY = new float[numberOfPoints];
-float ptX1, ptY1, ptX2, ptY2, ptX3, ptY3, ptX4, ptY4; //Organized pts into rows
-float ptX5, ptY5, ptX6, ptY6, ptX7, ptY7, ptX8, ptY8;
-float ptX9, ptY9, ptX10, ptY10, ptX11, ptY11, ptX12, ptY12;
-float ptX13, ptY13, ptX14, ptY14, ptX15, ptY15, ptX16, ptY16;
 //
 void setup() 
 {
@@ -20,10 +16,20 @@ void setup()
   rectHeight = appHeight*1/3;
   ptDiameter = appWidth*1/50;
   //
-  ptX[1] = ptX[5] = ptX[9] = ptX[13] = appWidth*0/3;
-  ptX[2] = ptX[6] = ptX[10] = ptX[14] = appWidth*1/3;
-  ptX[3] = ptX[7] = ptX[11] = ptX[15] = appWidth*2/3;
-  ptX[4] = ptX[8] = ptX[12] = ptX[16] = appWidth*3/3;
+  for (int i=1; i<ptX.length; i+=4) {
+    ptX[i] = appWidth*0/3;
+  }
+  for (int i=2; i<ptX.length; 1+=4) {
+    ptX[i] = appWidth*1/3;
+  }
+  for (int i=3; i<ptX.length; i+=4) {
+    ptX[i] = appWidth*2/3;
+  }
+  for (int i=4; i<ptX.length; i+=4) {
+    ptX[i] = appWidth*3/3;
+  }
+  //
+  
   //
   ptY[1] = ptY[2] = ptY[3] = ptY[4] = appHeight*0/3;
   ptY[5] = ptY[6] = ptY[7] = ptY[8] = appHeight*1/3;
