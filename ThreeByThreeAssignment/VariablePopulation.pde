@@ -77,13 +77,13 @@ void variablePopulation () {
   imageWidth = rectWidth;
   imageHeight = rectHeight;
   //
-  pic1 = loadImage ("white_museum.jpg"); //Dimensions: 500 Width, 515 Height
-  pic2 = loadImage ("crinkled_silk_chiffon.jpg"); //Dimensions: 564 Width, 564 Height
-  pic3 = loadImage ("book.jpg"); //Dimensions: 564 Width, 564 Height
-  pic4 = loadImage ("cake.jpg"); //Dimensions: 564 Width, 564 Height
-  pic5 = loadImage ("snow.jpg"); //Dimensions: 533 Width, 470 Height
-  pic6 = loadImage ("offline.jpg"); //Dimensions: 564 Width, 493 Height
-  pic7 = loadImage ("newspaper.jpg"); //Dimensions: 564 Width, 480 Height
+  pic1 = loadImage (""); //Dimensions: 500 Width, 515 Height
+  pic2 = loadImage (""); //Dimensions: 564 Width, 564 Height
+  pic3 = loadImage (""); //Dimensions: 564 Width, 564 Height
+  pic4 = loadImage (""); //Dimensions: 564 Width, 564 Height
+  pic5 = loadImage (""); //Dimensions: 533 Width, 470 Height
+  pic6 = loadImage (""); //Dimensions: 564 Width, 493 Height
+  pic7 = loadImage (""); //Dimensions: 564 Width, 480 Height
   //
   image1X = width*1/3;
   image1Y = height*1/3;

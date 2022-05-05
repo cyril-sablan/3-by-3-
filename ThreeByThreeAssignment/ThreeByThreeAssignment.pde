@@ -13,8 +13,8 @@ float faceX, faceY, faceDiameter, leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeD
 float trunkX1, trunkY1, trunkX2, trunkY2, trunkThick;
 float leaf1X1, leaf1Y1, leaf1X2, leaf1Y2, leaf1X3, leaf1Y3, leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3, leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3;
 PFont boxFont, buttonFont;
-color white = #FFFFFF, black = #000000, red = #F00202,  gray = #ACABAD;
-Boolean box6On=false, box1On=false, box9On=false, box8On=false, box4On=false, box7On=false, box3On=false, blueOn=false, greenOn=false, redOn=false, picOn=false;
+color white = #FFFFFF, black = #000000, orange = #F79A02,  gray = #ACABAD;
+Boolean box6On=false, box1On=false, box9On=false, box8On=false, box4On=false, box7On=false, box3On=false, blueOn=false, greenOn=false, orangeOn=false, picOn=false;
 
 void setup() {
   fullScreen(); //landscape
@@ -25,15 +25,15 @@ void setup() {
 
 void draw() {
   rectangles();
-  //box5(); 
-  //box6();
-  //box1();
-  //box9();
-  //box8();
-  //box2();
-  //box4();
-  //box7();
-  //box3();
+  box5(); 
+  box6();
+  box1();
+  box9();
+  box8();
+  box2();
+  box4();
+  box7();
+  box3();
   points(); //circles at the corners of each box
 }
 
@@ -49,17 +49,17 @@ void mousePressed() {
   if ( mouseX>=cButton1X && mouseX<=cButton1X+cButtonWidth && mouseY>=cButton1Y && mouseY<=cButton1Y+cButtonHeight) {
     blueOn = true;
     greenOn = false;
-    redOn = false;
+    orangeOn = false;
   }
   if ( mouseX>=cButton2X && mouseX<=cButton2X+cButtonWidth && mouseY>=cButton2Y && mouseY<=cButton2Y+cButtonHeight) {
     blueOn = false;
     greenOn = true;
-    redOn = false;
+    orangeOn = false;
   }
   if ( mouseX>=cButton3X && mouseX<=cButton3X+cButtonWidth && mouseY>=cButton3Y && mouseY<=cButton3Y+cButtonHeight) {
     blueOn = false;
     greenOn = false;
-    redOn = true;
+    orangeOn = true;
   }
   //
   if (mouseX>=button8X && mouseX<=button8X+button8Width && mouseY>=button8Y && mouseY<=button8Y+button8Height) {
@@ -83,6 +83,6 @@ void mousePressed() {
     box3On =false;
     blueOn = false;
     greenOn = false;
-    redOn = false;
+    orangeOn = false;
   }
 }

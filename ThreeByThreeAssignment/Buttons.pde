@@ -5,7 +5,7 @@ void button1() {
     rect(button1X, button1Y, button1Width, button1Height);
     button1Text2();
   } else {
-    stroke(gray);
+    stroke(white);
     fill(white);
     rect(button1X, button1Y, button1Width, button1Height);
     stroke(black);
@@ -22,7 +22,7 @@ void button2() {
     fill(white);
     button2Text();
   } else {
-    fill(red);
+    fill(white);
     rect(button2X, button2Y, button2Width, button2Height);
     stroke(black);
     button2Text();
@@ -38,11 +38,11 @@ void button3() {
     fill(white);
     button3Text();
   } else {
-    stroke(#6a5f50);
-    fill(#a59787);
+    stroke(white);
+    fill(white);
     rect(button3X, button3Y, button3Width, button3Height);
     stroke(black);
-    fill(#6a5f50);
+    fill(white);
     button3Text();
   }
   fill(white);
@@ -64,53 +64,6 @@ void button4() {
   fill(white);
 }
 
-void colourButtons() {
-  rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
-  if ( mouseX>=cButton1X && mouseX<=cButton1X+cButtonWidth && mouseY>=cButton1Y && mouseY<=cButton1Y+cButtonHeight) {
-    stroke(#98C8F0);
-    fill(#98C8F0);
-    rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
-    fill(white);
-    stroke(black);
-  } else {
-    stroke(#B6D9F7);
-    fill(#B6D9F7);
-    rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
-    stroke(black);
-    fill(white);
-  }
-  fill(white);
-  //
-  rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
-  if ( mouseX>=cButton2X && mouseX<=cButton2X+cButtonWidth && mouseY>=cButton2Y && mouseY<=cButton2Y+cButtonHeight) {
-    stroke(#7CD37C);
-    fill(#7CD37C);
-    rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
-    fill(white);
-  } else {
-    stroke(#B2E5B3);
-    fill(#B2E5B3);
-    rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
-    stroke(black);
-    fill(white);
-  }
-  fill(white);
-  //
-  rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
-  if ( mouseX>=cButton3X && mouseX<=cButton3X+cButtonWidth && mouseY>=cButton3Y && mouseY<=cButton3Y+cButtonHeight) {
-    stroke(#FAB1D9);
-    fill(#FAB1D9);
-    rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
-    fill(white);
-  } else {
-    stroke(#FAD7EA);
-    fill(#FAD7EA);
-    rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
-    stroke(black);
-    fill(white);
-  }
-  fill(white);
-}
 void button5() {
   rect(button5X, button5Y, cButtonWidth, cButtonHeight);
   if ( mouseX>=button5X && mouseX<=button5X+cButtonWidth && mouseY>=button5Y && mouseY<=button5Y+cButtonHeight) {
@@ -135,11 +88,11 @@ void button6() {
     fill(white);
     button6Text();
   } else {
-    stroke(#493243);
-    fill(#b39fa7);
+    stroke(white);
+    fill(white);
     rect(button6X, button6Y, button6Width, button6Height);
     stroke(black);
-    fill(#493243);
+    fill(white);
     button6Text();
   }
   fill(white);
