@@ -77,13 +77,12 @@ void variablePopulation () {
   imageWidth = rectWidth;
   imageHeight = rectHeight;
   //
-  pic1 = loadImage (""); //Dimensions: 500 Width, 515 Height
-  pic2 = loadImage (""); //Dimensions: 564 Width, 564 Height
-  pic3 = loadImage (""); //Dimensions: 564 Width, 564 Height
-  pic4 = loadImage (""); //Dimensions: 564 Width, 564 Height
-  pic5 = loadImage (""); //Dimensions: 533 Width, 470 Height
-  pic6 = loadImage (""); //Dimensions: 564 Width, 493 Height
-  pic7 = loadImage (""); //Dimensions: 564 Width, 480 Height
+  pic1 = loadImage ("autumn1.jpg"); 
+  pic2 = loadImage ("winter1.jpg"); 
+  pic3 = loadImage ("summer1.jpg"); 
+  pic4 = loadImage ("summer2.jpg"); 
+  pic5 = loadImage ("autumn2.jpg"); 
+  pic6 = loadImage ("winter2.jpg"); 
   //
   image1X = width*1/3;
   image1Y = height*1/3;
@@ -93,7 +92,7 @@ void variablePopulation () {
   image3Y = height*0;
   image4X = width*0;
   image4Y = height*1/3;
-  image5X = width*0;
+  image5X = width*1/3;
   image5Y = height*2/3;
   image6X = width*2/3;
   image6Y = height*0;
@@ -109,47 +108,4 @@ void variablePopulation () {
   text8Y = rectHeight*31/15;
   //
   //
-  //Face
-  faceX = rectWidth*5/2;
-  faceY = rectHeight*5/2;
-  faceDiameter = rectHeight*4/5;
-  //
-  leftEyeX = rectWidth*12/5;
-  leftEyeY = rectHeight*12/5;
-  rightEyeX = rectWidth*13/5;
-  rightEyeY = leftEyeY;
-  eyeDiameter = rectHeight/7;
-  //
-  mouthX1 = leftEyeX;
-  mouthY1 = rectHeight*21/8;
-  mouthX2 = rightEyeX;
-  mouthY2 = mouthY1;
-  //
-  //
-  //Tree (population numbers are from past composite images oroject, slightly modified
-  trunkX1 = rectWidth/2;
-  trunkY1 = rectHeight*13/5;
-  trunkX2 = rectWidth/2;
-  trunkY2 = rectHeight*57/20;
-  //
-  leaf1X1 = rectWidth*1/2;
-  leaf1Y1 = rectHeight*23/10;
-  leaf1X2 = rectWidth*7/20;
-  leaf1Y2 = rectHeight*53/20;
-  leaf1X3 = rectWidth*13/20;
-  leaf1Y3 = leaf1Y2;
-  //
-  leaf2X1 = rectWidth*1/2;
-  leaf2Y1 = rectHeight*11/5;
-  leaf2X2 = rectWidth*2/5;
-  leaf2Y2 = rectHeight*49/20;
-  leaf2X3 = rectWidth*3/5;
-  leaf2Y3 = leaf2Y2;
-  //
-  leaf3X1 = rectWidth*1/2;
-  leaf3Y1 = rectHeight*21/10;
-  leaf3X2 = rectWidth*17/40;
-  leaf3Y2 = rectHeight*23/10;
-  leaf3X3 = rectWidth*23/40;
-  leaf3Y3 = leaf3Y2;
 }//End population
