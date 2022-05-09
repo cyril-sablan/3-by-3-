@@ -108,8 +108,6 @@ void variablePopulation () {
   text7Y = height*10/15; 
   text7Width = width*1/3;
   text7Height = rectHeight;
-  text9X = width*1/100;
-  text9Y = height*50/70;
   //
   //
 }//End population

@@ -6,7 +6,7 @@ float button1X, button1Y, button1Width, button1Height, button2X, button2Y, butto
 float cButtonWidth, cButtonHeight, cButton1X, cButton1Y, cButton2X, cButton2Y, cButton3X, cButton3Y, button5X, button5Y, button6X, button6Y, button6Width, button6Height, button8X, button8Y, button8Width, button8Height;
 float button7X, button7Y, button7Width, button7Height, button9X, button9Y, button9Width, button9Height;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight, restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight;
-float text7X, text7Y, text7Width, text7Height, text9X, text9Y;
+float text7X, text7Y, text7Width, text7Height;
 float image1X, image1Y, image2X, image2Y, image3X, image3Y, image4X, image4Y, image5X, image5Y, image6X, image6Y, imageWidth, imageHeight;
 PImage pic1, pic2, pic3, pic4, pic5, pic6, pic7;
 float faceX, faceY, faceDiameter, leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter, mouthX1, mouthY1, mouthX2, mouthY2;

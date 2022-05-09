@@ -48,19 +48,12 @@ void button3Text() {
 
 
 //Box 9
-void button9Text() {
+  void button4Text() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont, 20);
   text(clickthis, button4X, button4Y, button4Width, button4Height);
-  text(box9Text, text9X, text9Y, rectWidth, rectHeight);
   textFont(buttonFont);
   fill(white);
-}
-  void box9Text() {
-  textAlign (CENTER, TOP);
-  textFont(boxFont, 17);
-  fill(white);
-  textFont(boxFont);
 }
 
 
@@ -77,14 +70,6 @@ void button6Text() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont);
   text(clickthis, button6X, button6Y, button6Width, button6Height);
-  fill(white);
-}
-  void button4Text() {
-  textAlign (CENTER, CENTER);
-  textFont(buttonFont, 20);
-  text(clickthis, button4X, button4Y, button4Width, button4Height);
-  text(box9Text, pt10X, text9Y, rectWidth, rectHeight);
-  textFont(buttonFont);
   fill(white);
 }
 
