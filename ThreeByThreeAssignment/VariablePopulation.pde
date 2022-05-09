@@ -62,6 +62,11 @@ void variablePopulation () {
   button8Y = rectHeight*5/8; 
   button8Width = rectWidth*1/4;
   button8Height = rectHeight*1/5;
+  //Button 9 
+  button9X = rectWidth*11/16; 
+  button9Y = rectHeight*19/8; 
+  button9Width = rectWidth*1/4;
+  button9Height = rectHeight*1/5;
   //Quit Button and Restart Button (for box 2)
   quitButtonX = rectWidth*5/4;
   quitButtonY = rectHeight*1/9;
@@ -99,13 +104,12 @@ void variablePopulation () {
   //
   //
   //Text
-  text6X = width*20/30;
-  text6Y = height*7/18; 
-  text6Width = width*1/3;
-  text6Height = rectHeight;
-  text1Y = rectHeight*2/3;
-  text1Height = rectHeight*1/3;
-  text8Y = rectHeight*31/15;
+  text7X = width*1/150;
+  text7Y = height*10/15; 
+  text7Width = width*1/3;
+  text7Height = rectHeight;
+  text9X = width*1/100;
+  text9Y = height*50/70;
   //
   //
 }//End population

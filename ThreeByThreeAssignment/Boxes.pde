@@ -1,6 +1,5 @@
-String box6Text= "“";
-String box1Text= "“";
-String box8Text= "";
+String box7Text= "test";
+String box9Text= "test";
 String start= "start";
 String clickthis= "clickthis";
 String quit= "quit";
@@ -20,7 +19,6 @@ void box6() {
     image(pic2, image2X, image2Y, imageWidth, imageHeight);
     line(pt7X, pt7Y, pt8X, pt8Y);
     line(pt7X, pt7Y, pt11X, pt11Y);
-    box6Text();
     button2();
   }
 }
@@ -28,13 +26,13 @@ void box6() {
 void box1() {
   if (box1On == true) {
     image(pic3, image3X, image3Y, imageWidth, imageHeight); //extra lines aren't needed because this box is at the top right
-    box1Text();
     button3();
   }
 }
 
 void box9() {
   if (box9On == true) {
+    box9Text();
     button4();
   }
 }
@@ -42,7 +40,6 @@ void box9() {
 void box8() {
   if (box8On == true) {
     image(pic5, image5X, image5Y, imageWidth, imageHeight);
-    box8Text();
     
     button5();
   }
@@ -59,6 +56,7 @@ void box4() {
 void box7() {
   if (box7On == true) {
     line(pt9X, pt9Y, pt10X, pt10Y);
+    box7Text();
     button7();
   }
 }
