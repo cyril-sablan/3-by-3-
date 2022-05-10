@@ -54,7 +54,7 @@ void variablePopulation () {
   button6Height = rectHeight*1/5;
   //Button 7 (for box 7)
   button7X = rectWidth*11/16; 
-  button7Y = rectHeight*19/8; 
+  button7Y = rectHeight*19/9; 
   button7Width = rectWidth*1/4;
   button7Height = rectHeight*1/5;
   //Button 8 (for box 3)
