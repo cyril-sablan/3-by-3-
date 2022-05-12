@@ -10,8 +10,6 @@ float text7X, text7Y, text7Width, text7Height;
 float image1X, image1Y, image2X, image2Y, image3X, image3Y, image4X, image4Y, image5X, image5Y, image6X, image6Y, imageWidth, imageHeight;
 PImage pic1, pic2, pic3, pic4, pic5, pic6, pic7;
 float faceX, faceY, faceDiameter, leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter, mouthX1, mouthY1, mouthX2, mouthY2;
-float trunkX1, trunkY1, trunkX2, trunkY2, trunkThick;
-float leaf1X1, leaf1Y1, leaf1X2, leaf1Y2, leaf1X3, leaf1Y3, leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3, leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3;
 PFont boxFont, buttonFont;
 color white = #FFFFFF, black = #000000, orange = #F79A02,  gray = #ACABAD;
 Boolean box6On=false, box1On=false, box9On=false, box8On=false, box4On=false, box7On=false, box3On=false, blueOn=false, greenOn=false, orangeOn=false, picOn=false;

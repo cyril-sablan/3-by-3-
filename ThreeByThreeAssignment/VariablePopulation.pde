@@ -102,12 +102,24 @@ void variablePopulation () {
   image6X = width*2/3;
   image6Y = height*0;
   //
-  //
   //Text
   text7X = width*1/150;
   text7Y = height*10/15; 
   text7Width = width*1/3;
   text7Height = rectHeight;
+  //Face
+  faceX = rectWidth*5/2;
+  faceY = rectHeight*5/2;
+  faceDiameter = rectHeight*4/5;
   //
+  leftEyeX = rectWidth*12/5;
+  leftEyeY = rectHeight*12/5;
+  rightEyeX = rectWidth*13/5;
+  rightEyeY = leftEyeY;
+  eyeDiameter = rectHeight/7;
   //
+  mouthX1 = leftEyeX;
+  mouthY1 = rectHeight*21/8;
+  mouthX2 = rightEyeX;
+  mouthY2 = mouthY1;
 }//End population

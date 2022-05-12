@@ -31,6 +31,7 @@ void box1() {
 
 void box9() {
   if (box9On == true) {
+    face();
     button4();
   }
 }
